@@ -13,7 +13,7 @@ const pick = (arr) => arr[Math.floor(rand() * arr.length)];
 export const namaBulan = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
 export const categories = ["Fashion", "Elektronik", "Rumah Tangga", "Kecantikan", "Olahraga"];
 export const channels = ["Marketplace", "Website", "Instagram", "WhatsApp"];
-const regions = ["Jawa Barat", "DKI Jakarta", "Jawa Tengah", "Jawa Timur", "Luar Jawa"];
+export const regions = ["Jawa Barat", "DKI Jakarta", "Jawa Tengah", "Jawa Timur", "Luar Jawa"];
 
 const products = [
   { nama: "Kaos Polos Premium", kategori: "Fashion", harga: 85000 },

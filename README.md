@@ -1,16 +1,22 @@
-# React + Vite
+# E-Commerce Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Dashboard analitik penjualan e-commerce interaktif menggunakan data sintetis.
 
-Currently, two official plugins are available:
+**Demo:** [Lihat dashboard langsung](https://ecommerce-analytics-dashboard-neon-chi.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fitur
+- Filter berdasarkan periode (kuartal), kategori, dan channel
+- KPI: total pendapatan, jumlah pesanan, rata-rata nilai pesanan, tingkat batal/retur
+- Grafik tren bulanan, kategori, channel, dan wilayah
+- Tabel 5 produk terlaris
+- Insight otomatis berdasarkan filter yang dipilih
 
-## React Compiler
+## Teknologi
+React.js, Vite, CSS, Recharts, Lucide React, JavaScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Catatan Data
+Seluruh data dibuat secara sintetis untuk simulasi dan bukan data bisnis asli.
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Menjalankan di Komputer
+npm install
+npm run dev
